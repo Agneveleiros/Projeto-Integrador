@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultoria para Pequenas Empresas</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="header-nav">
+            <ul class="menu  menu-principal">
+                <li class="menu-item"> 
+                   <a href="#home" class="menu-link active"> Início </a>
+                </li>
+                <li class="menu-item">
+                   <a href="#servicos" class="menu-link"> Serviços </a>
+                </li>
+                <li class="menu-item">
+                   <a href="#sobre" class="menu-link"> Sobre </a>
+                </li>
+                <li class="menu-item">
+                   <a href="#contato" class="menu-link"> Contato </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header-logo">
+            <a href="#home">
+                <img src="img/logo-empresa.png" alt="" class="logo">
+                <img src="img/logo-alternativa.png" alt="" class="logo2">
+            </a>
+        </div>
+        <div class="header-toggle">
+            <i id="toggleTheme" class="bi bi-sun"></i>
+        </div>
+    </header>
+
+    <nav class="nav-mobile">
+        <ul class="menu menu-mobile">
+            <li class="menu-item">
+                <a href="#home" class="menu-link active">
+                    <i class="menu-icon bi bi-house-door"></i>
+                    <span class="menu-text"> Início </span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="#servicos" class="menu-link">
+                    <i class="menu-icon bi bi-briefcase"></i>
+                    <span class="menu-text"> Serviços </span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="#sobre" class="menu-link">
+                    <i class="menu-icon bi bi-person"></i>
+                    <span class="menu-text"> Sobre </span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="#contato" class="menu-link">
+                    <i class="menu-icon bi bi-telephone"></i>
+                    <span class="menu-text"> Contato </span>
+                </a>
+            </li>
+        </ul>
+    </nav> 
+
+    <main id="home">
+        <div class="main-content">
+            <h1> <b> Soluções Estratégicas </b> para Pequenas Empresas </h1>
+            <p> Consultoria especializada para transformar sua empresa em um negócio de sucesso. </p>
+            <ul class="menu menu-social">
+                <li>
+                    <a href="https://www.linkedin.com" class="menu-link" target="_blank">
+                        <i class="menu-icon bi bi-linkedin"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://wa.me/5511999999999" class="menu-link" target="_blank">
+                        <i class="menu-icon bi bi-whatsapp"></i>
+                    </a>
+                </li>
+            </ul>
+            <a href="#servicos">
+                <button class="btn btn-primary">
+                    <span>Ver Serviços</span>
+                    <i class="bi bi-arrow-down-right"></i>
+                </button>
+            </a>
+        </div>
+    </main>
+
+    <section id="servicos" class="servicos">
+        <h2>Nossos Serviços</h2>
+        <div class="servico-container">
+            <div class="servico-card">
+                <img src="img/consultoria.jpeg" class="card-cover" alt="Consultoria Empresarial">
+                <div class="card-body">
+                    <h3 class="card-title">Consultoria Empresarial</h3>
+                    <p class="card-description">Oferecemos consultoria personalizada para pequenas empresas que buscam soluções práticas e eficazes para seus desafios diários.</p>
+                    <div class="card-button">
+                        <span class="btn btn-primary">
+                            <a href="" target="_blank">
+                                <span>Saiba Mais</span>
+                                <i class="bi bi-arrow-up-right"></i>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="servico-card card-reverse">
+                <img src="img/marketing.jpeg" class="card-cover" alt="Marketing Digital">
+                <div class="card-body">
+                    <h3 class="card-title">Marketing Digital</h3>
+                    <p class="card-description">Ajudamos sua empresa a crescer no ambiente online através de estratégias de marketing digital, SEO, e redes sociais.</p>
+                    <div class="card-button">
+                        <button class="btn btn-primary">
+                            <a href="" target="_blank">
+                                <span>Saiba Mais</span>
+                                <i class="bi bi-arrow-up-right"></i>
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="servico-card">
+                <img src="img/gestao.jpeg" class="card-cover" alt="Gestão Financeira">
+                <div class="card-body">
+                    <h3 class="card-title">Gestão Financeira</h3>
+                    <p class="card-description">Oferecemos soluções de gestão financeira para otimizar os recursos da sua empresa e aumentar a lucratividade.</p>
+                    <div class="card-button">
+                        <button class="btn btn-primary">
+                            <a href="" target="_blank">
+                                <span>Saiba Mais</span>
+                                <i class="bi bi-arrow-up-right"></i>
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="sobre">
+        <div class="sobre-content1">
+            <img src="img/empresa.jpg" alt="Equipe" class="sobre-perfil">
+            <div class="sobre-descricao">
+                <h2> Sobre Nós </h2>
+                <p>Somos uma equipe de profissionais apaixonados por ajudar pequenas empresas a alcançar seu potencial máximo. Nossa missão é oferecer soluções inovadoras e acessíveis para cada cliente.</p>
+                <div class="descricao-button">
+                    <a href="https://www.linkedin.com" target="_blank">
+                        <button class="btn btn-primary">
+                            <span>Conecte-se Conosco</span>
+                            <i class="bi bi-arrow-up-right"></i>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contato">
+        <h2>Fale Conosco</h2>
+        <p>Estamos prontos para ajudar sua empresa a crescer. Entre em contato e agende uma consulta.</p>
+        <ul class="menu menu-social">
+            <li>
+                <a href="https://www.linkedin.com" class="menu-link" target="_blank">
+                    <i class="menu-icon bi bi-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://wa.me/5511999999999" class="menu-link" target="_blank">
+                    <i class="menu-icon bi bi-whatsapp"></i>
+                    <span>WhatsApp</span>
+                </a>
+            </li>
+        </ul>
+        <a href="mailto:contato@empresa.com">
+            <button class="btn btn-primary">
+                <span class="email">contato@empresa.com</span>
+            </button>
+        </a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024. Consultoria para Pequenas Empresas. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
